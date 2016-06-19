@@ -24,7 +24,7 @@ void draw() {
   }  
   if(mousePressed == true){
     noStroke();
-    if(isNear(creeperX,mouseX,50) == true && isNear(creeperY,mouseY,50) == true){
+    if(isNear(creeperX,mouseX,30) == true && isNear(creeperY,mouseY,30) == true){
       fill(0,255,0);
       ellipse(mouseX,mouseY,10,10);
     } else{ 

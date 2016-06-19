@@ -10,12 +10,12 @@ void setup(){
 }
 void draw(){
   fill(255,0,0);
-  noStroke();
+  //noStroke();
   ellipse(x1,y1,73,73);
   ellipse(x1+200,y1,73,73);
 }
 void keyPressed() {
-   x1+=5;
-   y1+=5;
+   x1+=2;
+   y1+=2;
 }
 
